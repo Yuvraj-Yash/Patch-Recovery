@@ -4,12 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       RECOVERY_URL:
-        description: 'RECOVERY URL'
+        description: 'https://terabox.com/s/16lLkKV2jZvt6XbVrni60pg'
         required: true
-        default: 'https://transfer.sh/(RECOMMENDED)'
+        default: 'https://terabox.com/(RECOMMENDED)'
 
-env:
-  RECOVERY_URL: https://oshi.at/Rpjg
+env:RECOVERY_URL:https://terabox.com/s/16lLkKV2jZvt6XbVrni60pg
 
 jobs:
   build:
